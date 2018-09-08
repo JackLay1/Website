@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Arial, Comic Sans MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Comic Sans MS";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -8966,6 +8966,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
+  font-family: "Comic Sans MS"
   color: #212529 !important;
 }
 
@@ -9043,6 +9044,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
+    font-family: "Comic Sans MS"
     min-width: 992px !important;
     background-color: #141d26;
   }
