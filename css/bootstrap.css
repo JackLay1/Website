@@ -8996,6 +8996,7 @@ a.text-dark:hover, a.text-dark:focus {
 
   .iframe {
     max-height: 70%;
+    max-width: auto;
   }
 
 .invisible {
