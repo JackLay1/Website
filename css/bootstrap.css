@@ -6537,7 +6537,7 @@ button.bg-dark:focus {
   top: 0;
   bottom: 0;
   margin-left:0;
-  margin-right:0;
+  margin-right:-12.5%;
   height: 70% !important;
   width: 70% !important;
   border: 0;
