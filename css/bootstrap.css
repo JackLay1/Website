@@ -6531,7 +6531,6 @@ button.bg-dark:focus {
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
-  /**
   position: absolute;
   display: block;
   margin: 0px, auto;
@@ -6542,21 +6541,6 @@ button.bg-dark:focus {
   height: 70% !important;
   width: 70% !important;
   border: 0;
-}
-**/
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width:  70%;
-  height: 70%;
 }
 
 .embed-responsive-21by9::before {
