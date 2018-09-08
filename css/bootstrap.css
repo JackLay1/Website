@@ -6531,14 +6531,18 @@ button.bg-dark:focus {
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
-  position: absolute;
+  
+display: block;
+margin: 0px, auto;
+
+  /**position: absolute;
   top: 0;
   bottom: 0;
   margin-left:12.5% !important;
   margin-right:12.5% !important;
   height: 70% !important;
   width: 70% !important;
-  border: 0;
+  border: 0; **/
 }
 
 .embed-responsive-21by9::before {
