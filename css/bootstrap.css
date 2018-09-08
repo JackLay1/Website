@@ -6538,7 +6538,6 @@ button.bg-dark:focus {
   height: 70% !important;
   width: 70% !important;
   border: 0;
-  align-content: center;
 }
 
 .embed-responsive-21by9::before {
