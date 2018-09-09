@@ -184,17 +184,17 @@ a:active {
 
 a:hover {
   display: block;
-  border: 3px dashed #000;
+  border: 3px;
   text-align: center
   color: #99AAB5;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
 a:link {
     
   display: block;
-  border: 3px dashed #000;
+  border: 3px; 
   text-align: center
   color: #99AAB5;
   text-decoration: none;
@@ -203,7 +203,7 @@ a:link {
 a:visited {
     
   sdisplay: block;
-  border: 3px dashed #000;
+  border: 3px;
   text-align: center
   color:#99AAB5;
   text-decoration: none;
