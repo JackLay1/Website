@@ -84,21 +84,6 @@ footer
   background-color: #141d26;
 }
 
-#siteTitle
-{
-  font: 18px COmic Sans MS;
-  color: #99AAB5;
-}
-
-#siteSubtitle
-{
-  font: 12px Comic Sans MS;
-  color: #99AAB5;
-
-[tabindex="-1"]:focus {
-  outline: 0 !important;
-}
-
 hr {
   box-sizing: content-box;
   height: 0;
