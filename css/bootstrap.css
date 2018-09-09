@@ -72,8 +72,8 @@ footer
   text-align: center;
   height: 20px;
   color: #99AAB5;
-
-body {
+  
+  body {
   margin: 0;
   font-family: "Comic Sans MS";
   font-size: 1rem;
@@ -81,7 +81,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #99AAB5;
+  background-color: #141d26;
 }
 
 #siteTitle
