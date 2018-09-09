@@ -164,6 +164,11 @@ sup {
   top: -.5em;
 }
 
+#siteinfocontainer{
+  height: 200px;
+  width: 100px;
+}
+
 a {
   color: #99AAB5;
   text-decoration: none;
