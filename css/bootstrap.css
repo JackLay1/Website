@@ -54,25 +54,10 @@ html {
   width: device-width;
 }
 
-article, aside, figcaption, figure, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-footer
-{
-  font: 24px Comic Sans MS;
-  width: 80vw;
-  display: block;
-  margin-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  clear: both;
-  padding: 20px;
-  text-align: center;
-  height: 20px;
-  color: #99AAB5;
-  
   body {
   margin: 0;
   font-family: "Comic Sans MS";
