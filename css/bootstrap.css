@@ -229,9 +229,9 @@ figure {
 }
 
 img {
-  padding-left: 12.5%;
-  vertical-align: middle;
-  border-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 svg {
