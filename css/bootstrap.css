@@ -166,6 +166,7 @@ sup {
 }
 
 a {
+
   color: #99AAB5;
   text-decoration: none;
   background-color: transparent;
@@ -173,25 +174,39 @@ a {
 }
 
 a:active {
-    color:#99AAB5;
-    text-decoration: none;
+  display: block;
+  border: 3px;
+  text-align: center
+  color:#99AAB5;
+  text-decoration: none;
 }
 
 
 a:hover {
+  display: block;
+  border: 3px dashed #000;
+  text-align: center
   color: #99AAB5;
   text-decoration: underline;
 }
 
 
 a:link {
-    color: #99AAB5;
-    text-decoration: none;
+    
+  display: block;
+  border: 3px dashed #000;
+  text-align: center
+  color: #99AAB5;
+  text-decoration: none;
 }
 
 a:visited {
-    color:#99AAB5;
-    text-decoration: none;
+    
+  sdisplay: block;
+  border: 3px dashed #000;
+  text-align: center
+  color:#99AAB5;
+  text-decoration: none;
 }
 
 
