@@ -166,19 +166,12 @@ sup {
 }
 
 a {
-
-  display: block;
-  border: 1px;
   text-align: center
   color: #99AAB5;
   text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
 }
 
 a:active {
-  display: block;
-  border: 1px;
   text-align: center
   color:#99AAB5;
   text-decoration: none;
@@ -186,8 +179,6 @@ a:active {
 
 
 a:hover {
-  display: block;
-  border: 1px;
   text-align: center
   color: #99AAB5;
   text-decoration: none;
@@ -195,18 +186,12 @@ a:hover {
 
 
 a:link {
-    
-  display: block;
-  border: 1px; 
   text-align: center
   color: #99AAB5;
   text-decoration: none;
 }
 
 a:visited {
-    
-  display: block;
-  border: 1px;
   text-align: center
   color:#99AAB5;
   text-decoration: none;
