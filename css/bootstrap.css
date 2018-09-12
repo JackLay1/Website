@@ -6534,7 +6534,7 @@ button.bg-dark:focus {
 .embed-responsive object,
 .embed-responsive video {
   max-height: 70%;
-  max-width: 70%;
+  max-width: auto%;
 }
 
 .embed-responsive-21by9::before {
