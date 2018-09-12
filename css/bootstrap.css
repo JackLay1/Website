@@ -6537,9 +6537,7 @@ button.bg-dark:focus {
 .embed-responsive embed,
 .embed-responsive object,
 .embed-responsive video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .embed-responsive-21by9::before {
