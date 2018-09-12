@@ -6521,15 +6521,11 @@ button.bg-dark:focus {
 }
 
 .embed-responsive {
-  height: 70%;
-  width: 70%;
-  padding-left: 14%;
-  overflow: hidden;
+
 }
 
 .embed-responsive::before {
-  display: block;
-  content: "";
+
 }
 
 .embed-responsive .embed-responsive-item,
