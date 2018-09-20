@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#99AAB5;
 }
 
+
 .videoContainer {
   position: absolute;
   width: 100%;
@@ -73,14 +74,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 iframe {
-  /* optional */
-  width: 100%;
-  height: auto; 
+  /* optional */s
+  width: 75%;
+  height: 75%; 
 }
 
 
+#top20{
+  height: 15%;
+  width: auto;
+}
+
 img{
-  vertical-align:  : center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
