@@ -96,10 +96,14 @@ iframe {
   height:   ; 
 }
 
-
-#top20{
-  height: 15%;
+.responsive {
+  max-height: 81%;
   width: auto;
+
+}
+
+#lefttext{
+text-align: left;
 }
 
 img{
