@@ -89,12 +89,18 @@ footer{
   align-items: center;
 }
 
-iframe {
-  /* optional */
-  display: block;
-  margin: 0 auto
+.iframe-container{
+  position: relative;
   width: 100%;
-  height:   ; 
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 13%;
+  width: 75%;
+  height: 75% ;
 }
 
 .responsive {
@@ -235,12 +241,6 @@ p {
 
 img {vertical-align: middle;}
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -355,3 +355,10 @@ img {vertical-align: middle;}
 }
 
 ul { display: inline-block; text-align: left; }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
