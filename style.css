@@ -317,16 +317,6 @@ img {vertical-align: middle;}
   display: block;
   width: 200px;
   height: 200px;
-  /*-webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;*/
-  /*-webkit-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
-  -moz-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
-  -ms-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
-  -o-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
-  box-shadow: rgb(110, 110, 110) 3px 3px 3px;*/
   -webkit-transition: height 0.3s, margin-bottom 0.3s;
   -moz-transition: height 0.3s, margin-bottom 0.3s;
   -ms-transition: height 0.3s, margin-bottom 0.3s;
@@ -347,16 +337,9 @@ img {vertical-align: middle;}
   -webkit-box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
   -moz-box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
   box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
-  /*-webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  border-radius: 10px;*/
-  /*-webkit-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
-  -moz-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
-  -ms-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
-  -o-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
-  box-shadow: rgb(110, 110, 110) 1px 1px 1px;*/
 }
 
-  
+#text
+{
+  text-align: center;
+}
