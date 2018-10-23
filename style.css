@@ -302,13 +302,14 @@ img {vertical-align: middle;}
 
 #videoList #one a
 {
+  align-content: center;
   display: block;
   text-decoration: none;
   list-style-type: none;
 }
 /* boxes */
 #videoList li a #videoInfoContainer
-{
+{ text-align: center;
   opacity: 0.8;
   margin: 15px;
   margin-bottom: 25px;
@@ -343,3 +344,14 @@ img {vertical-align: middle;}
 {
   text-align: center;
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #141d26;
+  text-align: center;
+}
+
+ul { display: inline-block; text-align: left; }
