@@ -289,3 +289,74 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+#videoList
+{
+  list-style-type: none;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+#videoList #one a
+{
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* boxes */
+#videoList li a #videoInfoContainer
+{
+  opacity: 0.8;
+  margin: 15px;
+  margin-bottom: 25px;
+  padding: 5px;
+  float: left;
+  display: block;
+  width: 200px;
+  height: 200px;
+  /*-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;*/
+  /*-webkit-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
+  -moz-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
+  -ms-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
+  -o-box-shadow: rgb(110, 110, 110) 3px 3px 3px;
+  box-shadow: rgb(110, 110, 110) 3px 3px 3px;*/
+  -webkit-transition: height 0.3s, margin-bottom 0.3s;
+  -moz-transition: height 0.3s, margin-bottom 0.3s;
+  -ms-transition: height 0.3s, margin-bottom 0.3s;
+  -o-transition: height 0.3s, margin-bottom 0.3s;
+  transition: height 0.3s, margin-bottom 0.3s;
+}
+
+#videoList li a #videoInfoContainer:hover
+{
+  opacity: 1;
+}
+
+/* image properties */
+#videoList li a img
+{
+  width: 100%;
+  height: 125px;
+  -webkit-box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
+  -moz-box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
+  box-shadow: 3px 3px 12px 1px rgba(17,17,17,1);
+  /*-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;*/
+  /*-webkit-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
+  -moz-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
+  -ms-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
+  -o-box-shadow: rgb(110, 110, 110) 1px 1px 1px;
+  box-shadow: rgb(110, 110, 110) 1px 1px 1px;*/
+}
+
+  
