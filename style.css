@@ -53,14 +53,14 @@ a:not([href]):not([tabindex]):focus {
 }
 
 html{
-  background: #898989;
+  background: #444444;
 }
 
 body,{
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: #999999;
+  background-color: #444444;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -351,7 +351,7 @@ img {vertical-align: middle;}
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #7a7a7a;
+  background-color: #444444;
   text-align: center;
 }
 
