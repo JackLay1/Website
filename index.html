@@ -3,17 +3,24 @@
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="cardJS.js">"></script>
 
   <title>Welcome!</title>
 </head>
 <body>
 
 <div>
-<h3 align="center">Hello! Welcome to my site</h3>
+  <br>
+<h2 align="center">Hello! Welcome to my site</h2>
 <hr>
 
+<div>
+  <center><img src="head.jpg"></center>
+  <h1 align="center">Quick Links:</h1>
+  <hr>
+</div>
+
 <div id="cards">
+  <a href="resume.html">
   <div class="card">
     <div class="card-content">
       <div class="card-image">
@@ -30,6 +37,7 @@
       </div>
     </div>
   </div>
+  </a>
   <div class="card">
     <div class="card-content">
       <div class="card-image">
@@ -46,7 +54,7 @@
       </div>
     </div>
   </div>
-  <div class="card">
+  <div class="card" >
     <div class="card-content">
       <div class="card-image">
         <i class="fa-duotone fa-person-to-portal"></i>
@@ -62,6 +70,50 @@
       </div>
     </div>
   </div>
+</div>
+
+<div align="center">
+  <hr>
+  <h2 align="center">Projects:</h2>
+    
+    <a href="https://github.com/jackhlay/RNG-Heatmap">
+  <div>
+    <h3>Heatmap</h3>
+      <p>
+        Written in Java, this is a simple project that generates a specified length set of coordinates, and generates a pseudo heatmap of the points, and their overlaps. Served as an exercise in I/O, parsing, and GUI. 
+      </p>
+  </div>
+    </a>
+  
+  <br>
+
+  <div>
+  <h3>Data Analysis Project</h3>
+    <p>This was a data analysis project. Leveraging python, and using common data science libraries Pandas and SciPy for multilinear regression I wrangled and analyzed nba betting data from '07-'08 through '22-'23 seasons to see if betting on the point spread is actually more profitable than betting on the moneyline underdog. This project was in an applied data science class where we went through the entire process of hypothesis formation and testing, actual analysis of results and confirmation/denial of your hypothesis, and a formal presentation of findings.  </p>
+  </div>
+
+  <br>
+
+    <a href="https://github.com/jackhlay/412Final">
+  <div>
+    <h3>Network Enabled Game</h3>
+      <p>This was a software engineering project. Written in Java, we created a Tic-Tac-Toe with a fully working GUI, that would allow 2 people on the same network to play TTT. We used a work infrastructure similar to the Agile framework and tought about maintaining schedules, finishing deliverables to the expected standard on time.</p>
+  </div>
+    </a>
+
+    <br>
+
+    <div>
+      <h3>RPG style game</h3>
+        <p>
+          Written in python, we created a small but robust RPG style game. It had save state capabilities, allowing for many characters with their own inventories and names. Had a combat and leveling system, allowing for visible progression through the game, as well as the option to fight a final boss when leveled high enough 
+        </p>
+    </div>
+
+</div>
+
+
+
 <footer><hr></footer>
 </body> 
 </html>

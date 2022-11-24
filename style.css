@@ -3,22 +3,30 @@
   --card-color: rgb(23, 23, 23);
 }
 
+p{
+max-width: 45%;
+color: white;
+}
+
+img{
+  max-height: 350px;
+  object-fit:cover;
+  border-radius: 55%;
+}
+
 body {
-  align-items: center;
   background-color: var(--bg-color);
   display: flex;
   height: 100vh;
   justify-content: center;
   margin: 0px;
-  overflow: hidden;
   padding: 0px;
 }
 
 #cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;  
-  max-width: 916px;
+  align-items: center;
+  justify-content: center;
   width: calc(100% - 20px);
 }
 
@@ -37,40 +45,6 @@ body {
   width: 300px;  
 }
 
-.card:hover::before {
-  opacity: 1;
-}
-
-.card::before,
-.card::after {
-  border-radius: inherit;
-  content: "";
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  position: absolute;
-  top: 0px;
-  transition: opacity 500ms;
-  width: 100%;
-}
-
-.card::before {
-  background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y), 
-    rgba(255, 255, 255, 0.06),
-    transparent 40%
-  );
-  z-index: 3;
-}
-
-.card::after {  
-  background: radial-gradient(
-    600px circle at var(--mouse-x) var(--mouse-y), 
-    rgba(255, 255, 255, 0.4),
-    transparent 40%
-  );
-  z-index: 1;
-}
 
 .card > .card-content {
   background-color: var(--card-color);
