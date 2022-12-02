@@ -4,26 +4,137 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
 
-  <title>Welcome!</title>
+<title>Jack Lay</title>
 </head>
 <body>
-<div margin:auto class="topnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="resume.html">Resume</a>
-  <a href="https://www.linkedin.com/in/jackhlay">LinkedIn</a>
-  <a href="https://github.com/jackhlay">Github</a>
-  <a href="contact.html" >Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
-</div><br><hr>
 
 <div>
-<h3 align="center">Hello! Welcome to my site</h3>
-<hr>
-            <p>
-                I am building this website to be a better portfolio than I can present on Linkedin. You can find my general resume, Linkedin, Github, and contact info above!.
-            </p>
+
+<div>
+  <br>
+  <center><img src="head.jpg" id="Head"></center>
+  <h1 align="center"><strong>Jack Lay</strong></h1>
+  <br>
+  <br>
+  <center><p> 
+    I am a 3rd year computer science student at CU Boulder, on track to graduate Spring 2024. Post grad I hope to pursue a career in software engineering, data analysis, or machine learning/AI.
+  </p></center>  
+  <hr>  
+  <h1 align="center">Quick Links:</h1>
+  <hr>
 </div>
-<hr>
-<footer></footer>
+
+<center><div id="cards" align="center" >
+  <a href="resume.html">
+  <div class="card">
+    <div class="card-content">
+      <div class="card-image">
+        <img src="res.png" width="50px">
+        <i class="fa-duotone fa-apartment"></i>
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <i class="fa-duotone fa-apartment"></i>
+          <div class="card-info-title">
+            <h3>Resume</h3>  
+            <h4>Here is my general resume. Have a look if you are interested</h4>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+
+  <a href="https://github.com/jackhlay">
+  <div class="card">
+    <div class="card-content">
+      <div class="card-image">
+        <img src="git.png" width= 85x>
+        <i class="fa-duotone fa-unicorn"></i>
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <i class="fa-duotone fa-unicorn"></i>
+          <div class="card-info-title">
+            <h3>Github</h3>  
+            <h4>Check out some of my projects on Github</h4>
+          </div>    
+        </div>  
+      </div>
+    </div>
+  </div>
+  </a>
+  
+  <a href="https://www.linkedin.com/in/jackhlay">
+  <div class="card" >
+    <div class="card-content">
+      <div class="card-image">
+        <img src="in.png" width="50px" style="min-width: 50px;">
+        <i class="fa-duotone fa-person-to-portal"></i>
+      </div>
+      <div class="card-info-wrapper">
+        <div class="card-info">
+          <i class="fa-duotone fa-person-to-portal"></i>
+          <div class="card-info-title">
+            <h3>LinkedIn</h3>  
+            <h4>Please consider connecting with me on Linkedin</h4>
+          </div>    
+        </div>
+      </div>
+    </div>
+  </div>
+  </a>
+</div></center>
+
+
+<div align="center">
+  <hr>
+  <h2 align="center">Projects:</h2>
+    <hr>
+    <br>
+    <a href="https://github.com/jackhlay/Noise-Generator">
+  <div>
+    <h3>Noise Generator</h3>
+      <p>
+         Written in Java, this is a simple project that will generate random noise. To accomplish this it first will set a base layer to a color, then generates 2 random numbers to form a coordinate that corresponds to a pixel on the screen. Every time a pixel is selected its alpha layer is increased. It will let you customize the number of attempts, as well as the size of the image. If you want you can save the image. Additionally it exports a list of coordinates. This served as a way to strenghten skills in I/O, GUIs, and data structures.
+      </p>
+         
+  </div>
+    </a>
+  
+  <br>
+
+  <div>
+  <h3>Data Analysis</h3>
+    <p>This was a data analysis project. Leveraging python, and using common data science libraries Pandas and SciPy for multilinear regression I wrangled and analyzed nba betting data from '07-'08 through '22-'23 seasons to see if betting on the point spread is actually more profitable than betting on the moneyline underdog. This project was in an applied data science class where we went through the entire process of hypothesis formation and testing, actual analysis of results and confirmation/denial of your hypothesis, and a formal presentation of findings.  </p>
+  </div>
+
+  <br>
+
+    <a href="https://github.com/jackhlay/412Final">
+  <div>
+    <h3>Network Enabled Game</h3>
+      <p>This was a software engineering project. Written in Java, we created a Tic-Tac-Toe with a fully working GUI, that would allow 2 people on the same network to play TTT. We used a work infrastructure similar to the Agile framework.</p>
+  </div>
+    </a>
+
+    <br>
+
+    <div>
+      <h3>RPG style game</h3>
+        <p>
+          Written in python, we created a small but robust RPG style game. It had save state capabilities, allowing for many characters with their own inventories and names. Had a combat and leveling system, allowing for visible progression through the game, as well as the option to fight a final boss when leveled high enough 
+        </p>
+    </div>
+
+</div>
+<br>
+<br>
+
+<footer><hr>
+  <center><p style="color: dimgray; max-width:  100%;">
+    Contact: As long as they are listed here, I can be reached at <a href="mailto:jack.lay@colorado.edu">jack.lay@colorado.edu</a> or <a href="mailto:jack.lay@western.edu">jack.lay@western.edu</a>
+  </p></center>
+</footer>
 </body> 
 </html>
