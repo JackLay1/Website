@@ -30,7 +30,6 @@
     <div class="card-content">
       <div class="card-image">
         <img src="res.png" width="50px">
-        <i class="fa-duotone fa-apartment"></i>
       </div>
       <div class="card-info-wrapper">
         <div class="card-info">
@@ -54,7 +53,6 @@
       </div>
       <div class="card-info-wrapper">
         <div class="card-info">
-          <i class="fa-duotone fa-unicorn"></i>
           <div class="card-info-title">
             <h3>Github</h3>  
             <h4>Check out some of my projects on Github</h4>
@@ -70,7 +68,6 @@
     <div class="card-content">
       <div class="card-image">
         <img src="in.png" width="50px" style="min-width: 50px;">
-        <i class="fa-duotone fa-person-to-portal"></i>
       </div>
       <div class="card-info-wrapper">
         <div class="card-info">
@@ -93,6 +90,9 @@
     <hr>
     <br>
 
+<button class="accordion"><h2>2023</h2></button>
+<div class="panel">
+    <br>
     <div>
         <a href="https://github.com/jackhlay/Chessguy">
     <h2>Chess Engine</h2>
@@ -114,8 +114,11 @@
          
   </div>
     </a>
+</div><br>
 
-<br>
+<button class="accordion"><h2>2022</h2></button>
+<div class="panel">
+    <br>
 
     <a href="https://github.com/jackhlay/Noise-Generator">
   <div>
@@ -134,15 +137,18 @@
     <p>This was a data analysis project. Leveraging python, and using common data science libraries Pandas and SciPy for multilinear regression I wrangled and analyzed nba betting data from '07-'08 through '22-'23 seasons to see if betting on the point spread is actually more profitable than betting on the moneyline underdog. This project was in an applied data science class where we went through the entire process of hypothesis formation and testing, actual analysis of results and confirmation/denial of your hypothesis, and a formal presentation of findings.  </p>
   </div>
 
-  <br>
 
+  <br>
     <a href="https://github.com/jackhlay/412Final">
   <div>
     <h3>Network Enabled Game</h3>
       <p>This was a software engineering project. Written in Java, we created a Tic-Tac-Toe with a fully working GUI, that would allow 2 people on the same network to play TTT. We used a work infrastructure similar to the Agile framework.</p>
   </div>
     </a>
+</div><br>
 
+<button class="accordion"><h2>2020</h2></button>
+<div class="panel">
     <br>
 
     <div>
@@ -151,7 +157,7 @@
           Written in python, we created a small but robust RPG style game. It had save state capabilities, allowing for many characters with their own inventories and names. Had a combat and leveling system, allowing for visible progression through the game, as well as the option to fight a final boss when leveled high enough 
         </p>
     </div>
-
+</div>
 </div>
 <br>
 <br>
@@ -160,6 +166,27 @@
   <center><p style="color: dimgray; max-width:  100%;">
     Contact: As long as they are listed here, I can be reached at <a href="mailto:jack.lay@colorado.edu">jack.lay@colorado.edu</a> or <a href="mailto:jack.lay@western.edu">jack.lay@western.edu</a>
   </p></center>
+  <hr><br>
 </footer>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (let i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}
+
+</script>
+
+
 </body> 
 </html>

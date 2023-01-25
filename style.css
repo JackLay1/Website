@@ -4,6 +4,7 @@
 }
 
 hr{
+  min-width: 35%;
   max-width: 69.420%;
 
 }
@@ -13,7 +14,7 @@ a{
 }
 
 p{
-max-width: 65%;
+max-width:55%;
 color: white;
 text-align: center ;
 }
@@ -181,4 +182,21 @@ i {
   .card {
     width: 100%;
   }
+}
+
+.accordion {
+  background-color: inherit;
+  min-width: 35%;
+  max-width: 69.420%;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  border: groove;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  width: inherit;
+  background-color: inherit;
+  display: block;
 }
