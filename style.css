@@ -185,7 +185,7 @@ i {
 }
 
 .accordion {
-  background-color: inherit;
+  background-color: rgba(0,0,0, 0.26);
   min-width: 35%;
   max-width: 69.420%;
   color: white;
@@ -196,7 +196,8 @@ i {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  width: inherit;
-  background-color: inherit;
+  min-width:  20%;
+  max-width:  55%;
+  background-color: rgba(0,0,0, 0.26);
   display: block;
 }
