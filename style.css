@@ -4,8 +4,7 @@
 }
 
 hr{
-  min-width: 35%;
-  max-width: 69.420%;
+  max-width: 55%;
 }
 
 .smalldiv{
@@ -19,7 +18,7 @@ a{
 }
 
 p{
-max-width:55%;
+max-width:45%;
 color: white;
 text-align: center ;
 }
