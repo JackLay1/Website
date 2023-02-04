@@ -4,16 +4,21 @@
 }
 
 hr{
-  max-width: 69.420%;
+  max-width: 55%;
+}
 
+.smalldiv{
+  min-width: 5%;
+  max-width: 6%;
 }
 
 a{
-  color:inherit ;
+  color: inherit;
+  text-decoration: none;
 }
 
 p{
-max-width: 65%;
+max-width:45%;
 color: white;
 text-align: center ;
 }
