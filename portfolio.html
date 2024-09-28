@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="selected">My Portfolio</h1>
+            <hr><br>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="selected" href="">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><br><hr>
+        </div>
+    </header>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="accordion">
+                <h3 class="year">2024</h3>
+                <div class="content">
+                    <p>C - <a href="Cstuff.html" class="portfolio" data-project="pc">quick C projects</a></p>
+                    <p>Senior Capstone Project 2: <a href="https://linktr.ee/cheatmaps" class="portfolio" data-project="pcm">Cheat Maps</a></p>
+                    <p>Chess Engine - <a href="https://github.com/jackhlay/Chessguy/tree/UCI+GO" class="portfolio" data-project="ceg">Golang rewrite in progress</a></p>
+
+                </div>
+                <h3 class="year">2023</h3>
+                <div class="content">
+                    <p>Senior Capstone Project 1: <a href="https://github.com/UCBoulder/HabitatApi" class="portfolio" data-project="hab">HabitatAPI</a></p>
+                    <p>Drone GUI <a href="https://github.com/jackhlay/DroneUI" class="portfolio" data-project="drn">Drone GUI</a></p>
+                    <p>Chess Engine - <a href="https://github.com/jackhlay/Chessguy/tree/Progress-Tube" class="portfolio" data-project="cep">POC in python</a></p>
+                    <p>Chess Analysis w/ <a href="https://github.com/jackhlay/Reverse-Chess-Positional-Eval" class="portfolio" data-project="cnn">Neural Networks</a></p>
+                </div>
+                <h3 class="year">2022</h3>
+                <div class="content">
+                    <p>Text Adventure: <a href="https://github.com/jackhlay/Text-Adventure-Map" class="portfolio" data-project="tai">with inventory screen</a></p>
+                    <p>Noise Generator: <a href="https://github.com/jackhlay/Noise-Generator" class="portfolio" data-project="noi">Manipulating alpha values</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+    </body>
+</html>
